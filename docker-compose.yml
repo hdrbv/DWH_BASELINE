@@ -25,6 +25,9 @@ services:
     volumes:
       - ./data:/var/lib/postgresql/data
       - ./data-slave:/var/lib/postgresql/data-slave
+      - ./init-script/config/postgres.conf:/etc/postgresql/postgresql.conf
+      - ./init-script/config/pg_hba.conf:/etc/postgresql/pg_hba.conf
+      - ./init-script:/etc/postgresql/init-script
       - ./dtb_creating.sql:/docker-entrypoint-initdb.d/dtb_creating.sql
       - ./view_creating.sql:/docker-entrypoint-initdb.d/view_creating.sql
   
@@ -50,4 +53,7 @@ services:
     image: postgres:13
     volumes:
       - ./data-slave:/var/lib/postgresql/data 
+      - ./init-script/config/postgres.conf:/etc/postgresql/postgresql.conf
+      - ./init-script/config/pg_hba.conf:/etc/postgresql/pg_hba.conf
+      - ./init-script:/etc/postgresql/init-script
 
