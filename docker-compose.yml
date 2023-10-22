@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   postgres_master:
-    container_name: "postgres1"
+    container_name: "postgres_master"
     restart: always
     ports:
       - "5432:5432"
@@ -32,7 +32,7 @@ services:
       - ./createview.sql:/docker-entrypoint-initdb.d/createview.sql
   
   postgres_slave:
-    container_name: "postgres2"
+    container_name: "postgres_slave"
     ports:
       - "5433:5432"
     healthcheck:
@@ -55,5 +55,3 @@ services:
       - ./data-slave:/var/lib/postgresql/data 
       - ./init-script/config/postgres.conf:/etc/postgresql/postgresql.conf
       - ./init-script/config/pg_hba.conf:/etc/postgresql/pg_hba.conf
-      - ./init-script:/etc/postgresql/init-script
-
