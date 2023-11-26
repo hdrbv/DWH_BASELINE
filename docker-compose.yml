@@ -6,12 +6,6 @@ services:
     restart: always
     ports:
       - "5432:5432"
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U habrpguser -d habrdb"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-      start_period: 10s
     deploy:
       resources:
         limits:
@@ -27,20 +21,13 @@ services:
       - ./data-slave:/var/lib/postgresql/data-slave
       - ./init-script/config/postgres.conf:/etc/postgresql/postgresql.conf
       - ./init-script/config/pg_hba.conf:/etc/postgresql/pg_hba.conf
-      - ./init-script:/etc/postgresql/init-script
+      - ./init-script:/etc/postgresql/inits/init.sh
       - ./createdb.sql:/docker-entrypoint-initdb.d/createdb.sql
       - ./createview.sql:/docker-entrypoint-initdb.d/createview.sql
-  
   postgres_slave:
     container_name: "postgres_slave"
     ports:
       - "5433:5432"
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U habrpguser -d habrdb"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-      start_period: 10s
     deploy:
       resources:
         limits:

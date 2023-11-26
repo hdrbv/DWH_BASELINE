@@ -50,7 +50,7 @@ CREATE TABLE purchase_items(
     product_id BIGINT REFERENCES products(product_id),
     purchase_id BIGINT REFERENCES purchases(purchase_id),
     product_count BIGINT NOT NULL,
-    product_price NUMERIC(9,2) NOT NULL,
+    product_price NUMERIC(9,2) NOT NULL 
 );
 
 CREATE VIEW public.GMV AS
