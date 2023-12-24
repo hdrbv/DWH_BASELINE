@@ -1,0 +1,99 @@
+{
+    "__inputs": [
+      {
+        "name": "DS_PROMETHEUS",
+        "label": "DS_PROMETHEUS",
+        "description": "",
+        "type": "datasource",
+        "pluginId": "prometheus",
+        "pluginName": "Prometheus"
+      }
+    ],
+    "__requires": [
+      {
+        "type": "grafana",
+        "id": "grafana",
+        "name": "Grafana",
+        "version": "6.3.5"
+      },
+      {
+        "type": "panel",
+        "id": "graph",
+        "name": "Graph",
+        "version": ""
+      },
+      {
+        "type": "datasource",
+        "id": "prometheus",
+        "name": "Prometheus",
+        "version": "1.0.0"
+      },
+      {
+        "type": "panel",
+        "id": "singlestat",
+        "name": "Singlestat",
+        "version": ""
+      }
+    ],
+    "annotations": {
+      "list": [
+        {
+          "builtIn": 1,
+          "datasource": "-- Grafana --",
+          "enable": true,
+          "hide": true,
+          "iconColor": "rgba(0, 211, 255, 1)",
+          "name": "Annotations & Alerts",
+          "type": "dashboard"
+        }
+      ]
+    },
+    "description": "This dashboard works with postgres_exporter for prometheus",
+    "editable": true,
+    "gnetId": 9628,
+    "graphTooltip": 0,
+    "id": null,
+    "iteration": 1568751813814,
+    "links": [],
+    "uid": "000000039",
+    "title": "GMV Dashboard",
+    "panels": [
+        {
+          "type": "stat",
+          "title": "Total GMV for last 30 days",
+          "targets": [
+            {
+              "rawSql": "SELECT SUM(pi.product_count * pi.product_price) AS total_gmv FROM public.purchases p JOIN public.purchase_items pi ON p.purchase_id = pi.purchase_id WHERE purchase_date >= CURRENT_DATE - INTERVAL '30 days'"
+            }
+          ]
+        },
+        {
+          "type": "graph",
+          "title": "GMV Dynamics for last 30 days",
+          "targets": [
+            {
+              "rawSql": "SELECT purchase_date, SUM(pi.product_count * pi.product_price) AS daily_gmv FROM public.purchases p JOIN public.purchase_items pi ON p.purchase_id = pi.purchase_id WHERE purchase_date >= CURRENT_DATE - INTERVAL '30 days' GROUP BY purchase_date ORDER BY purchase_date"
+            }
+          ]
+        },
+        {
+          "type": "piechart",
+          "title": "GMV by Category for last 30 days",
+          "targets": [
+            {
+              "rawSql": "SELECT category_name, SUM(pi.product_count * pi.product_price) AS category_gmv FROM public.purchases p JOIN public.purchase_items pi ON p.purchase_id = pi.purchase_id JOIN public.categories c ON p.category_id = c.category_id WHERE purchase_date >= CURRENT_DATE - INTERVAL '30 days' GROUP BY category_name"
+            }
+          ]
+        },
+        {
+          "type": "barchart",
+          "title": "Category GMV Dynamics for last 30 days",
+          "targets": [
+            {
+              "rawSql": "SELECT purchase_date, category_name, SUM(pi.product_count * pi.product_price) AS category_gmv FROM public.purchases p JOIN public.purchase_items pi ON p.purchase_id = pi.purchase_id JOIN public.categories c ON p.category_id = c.category_id WHERE purchase_date >= CURRENT_DATE - INTERVAL '30 days' GROUP BY purchase_date, category_name ORDER BY purchase_date, category_name"
+            }
+          ]
+        }
+      ]
+    }
+

@@ -195,3 +195,18 @@ services:
       start_period: 10s
       retries: 20
       interval: 10s
+
+  shiny: 
+    image: rocker/shiny:4.0.3    
+    ports:
+      - "5335:5335"    
+    container_name: shiny-visualization
+    volumes:
+      - ./VISUALIZATION_CLIENTS.R:/app/VISUALIZATION_CLIENTS.R
+    working_dir: /app
+    command: sh -c "Rscript ./visualization/VISUALIZATION_CLIENTS.R "
+
+    
+      
+
+
