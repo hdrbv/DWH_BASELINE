@@ -18,3 +18,4 @@
 - Поднят Apache Airflow в docker-compose 
 - Созданы DAG для Airflow
 - Поднята Grafana
+- Поднят Shiny
