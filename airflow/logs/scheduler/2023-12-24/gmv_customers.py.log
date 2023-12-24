@@ -1846,3 +1846,227 @@
 [2023-12-24T02:16:43.427+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:16:43.427+0000] {dag.py:2676} INFO - Sync 1 DAGs
 [2023-12-24T02:16:43.447+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:16:43.447+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
 [2023-12-24T02:16:43.461+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.119 seconds
+[2023-12-24T02:17:13.768+0000] {processor.py:153} INFO - Started process (PID=13840) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:17:13.771+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:17:13.772+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:17:13.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:17:13.818+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:17:13.851+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:17:13.851+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:17:13.869+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:17:13.869+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:17:13.880+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.117 seconds
+[2023-12-24T02:17:44.152+0000] {processor.py:153} INFO - Started process (PID=13923) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:17:44.153+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:17:44.154+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:17:44.154+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:17:44.185+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:17:44.216+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:17:44.216+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:17:44.234+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:17:44.234+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:17:44.248+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.099 seconds
+[2023-12-24T02:18:14.784+0000] {processor.py:153} INFO - Started process (PID=14010) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:18:14.786+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:18:14.788+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:18:14.788+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:18:14.825+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:18:14.855+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:18:14.854+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:18:14.872+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:18:14.872+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:18:14.885+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.108 seconds
+[2023-12-24T02:18:45.638+0000] {processor.py:153} INFO - Started process (PID=14105) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:18:45.639+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:18:45.640+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:18:45.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:18:45.679+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:18:45.713+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:18:45.713+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:18:45.731+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:18:45.731+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:18:45.742+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.111 seconds
+[2023-12-24T02:19:15.999+0000] {processor.py:153} INFO - Started process (PID=14181) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:19:16.002+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:19:16.004+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:19:16.003+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:19:16.047+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:19:16.078+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:19:16.078+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:19:16.096+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:19:16.096+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:19:16.109+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.120 seconds
+[2023-12-24T02:19:46.608+0000] {processor.py:153} INFO - Started process (PID=14275) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:19:46.610+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:19:46.612+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:19:46.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:19:46.645+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:19:46.671+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:19:46.671+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:19:46.686+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:19:46.686+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:19:46.697+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.097 seconds
+[2023-12-24T02:20:16.876+0000] {processor.py:153} INFO - Started process (PID=14369) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:20:16.877+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:20:16.878+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:20:16.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:20:16.912+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:20:16.942+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:20:16.942+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:20:16.959+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:20:16.959+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:20:16.971+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.102 seconds
+[2023-12-24T02:20:47.177+0000] {processor.py:153} INFO - Started process (PID=14454) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:20:47.178+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:20:47.178+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:20:47.178+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:20:47.199+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:20:47.222+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:20:47.222+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:20:47.240+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:20:47.240+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:20:47.252+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.079 seconds
+[2023-12-24T02:21:17.830+0000] {processor.py:153} INFO - Started process (PID=14539) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:21:17.833+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:21:17.834+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:21:17.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:21:17.877+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:21:17.928+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:21:17.928+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:21:17.953+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:21:17.953+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:21:17.970+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.157 seconds
+[2023-12-24T02:21:48.084+0000] {processor.py:153} INFO - Started process (PID=14633) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:21:48.086+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:21:48.088+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:21:48.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:21:48.136+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:21:48.192+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:21:48.192+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:21:48.215+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:21:48.215+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:21:48.229+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.164 seconds
+[2023-12-24T02:22:18.598+0000] {processor.py:153} INFO - Started process (PID=14716) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:22:18.600+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:22:18.601+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:22:18.601+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:22:18.635+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:22:18.667+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:22:18.667+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:22:18.686+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:22:18.686+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:22:18.700+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.106 seconds
+[2023-12-24T02:22:49.291+0000] {processor.py:153} INFO - Started process (PID=14803) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:22:49.293+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:22:49.294+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:22:49.294+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:22:49.347+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:22:49.439+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:22:49.439+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:22:49.459+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:22:49.459+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:22:49.471+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.184 seconds
+[2023-12-24T02:23:19.783+0000] {processor.py:153} INFO - Started process (PID=14897) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:23:19.785+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:23:19.787+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:23:19.786+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:23:19.825+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:23:19.895+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:23:19.895+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:23:19.913+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:23:19.913+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:23:19.926+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.152 seconds
+[2023-12-24T02:23:50.192+0000] {processor.py:153} INFO - Started process (PID=14980) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:23:50.192+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:23:50.193+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:23:50.193+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:23:50.217+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:23:50.241+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:23:50.241+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:23:50.256+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:23:50.256+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:23:50.267+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.078 seconds
+[2023-12-24T02:24:20.612+0000] {processor.py:153} INFO - Started process (PID=15067) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:24:20.613+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:24:20.614+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:24:20.614+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:24:20.648+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:24:20.689+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:24:20.689+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:24:20.708+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:24:20.708+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:24:20.720+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.113 seconds
+[2023-12-24T02:24:51.276+0000] {processor.py:153} INFO - Started process (PID=15161) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:24:51.279+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:24:51.281+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:24:51.281+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:24:51.317+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:24:51.350+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:24:51.349+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:24:51.369+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:24:51.369+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:24:51.381+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.117 seconds
+[2023-12-24T02:25:21.879+0000] {processor.py:153} INFO - Started process (PID=15237) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:25:21.882+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:25:21.883+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:25:21.883+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:25:21.925+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:25:21.960+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:25:21.960+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:25:21.978+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:25:21.978+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:25:21.991+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.137 seconds
+[2023-12-24T02:25:52.335+0000] {processor.py:153} INFO - Started process (PID=15331) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:25:52.337+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:25:52.338+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:25:52.338+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:25:52.397+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:25:52.436+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:25:52.436+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:25:52.457+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:25:52.457+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:25:52.470+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.145 seconds
+[2023-12-24T02:26:22.822+0000] {processor.py:153} INFO - Started process (PID=15425) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:26:22.823+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:26:22.824+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:26:22.824+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:26:22.861+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:26:22.893+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:26:22.893+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:26:22.914+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:26:22.914+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:26:22.927+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.110 seconds
+[2023-12-24T02:26:53.140+0000] {processor.py:153} INFO - Started process (PID=15501) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:26:53.141+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:26:53.143+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:26:53.143+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:26:53.185+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:26:53.224+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:26:53.223+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:26:53.242+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:26:53.242+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:26:53.254+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.121 seconds
+[2023-12-24T02:27:23.694+0000] {processor.py:153} INFO - Started process (PID=15594) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:27:23.696+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:27:23.697+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:27:23.697+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:27:23.733+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:27:23.764+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:27:23.764+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:27:23.781+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:27:23.781+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:27:23.798+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.112 seconds
+[2023-12-24T02:27:54.039+0000] {processor.py:153} INFO - Started process (PID=15688) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:27:54.042+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:27:54.043+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:27:54.043+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:27:54.088+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:27:54.127+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:27:54.127+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:27:54.149+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:27:54.149+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:27:54.162+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.131 seconds
+[2023-12-24T02:28:24.698+0000] {processor.py:153} INFO - Started process (PID=15764) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:28:24.700+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:28:24.702+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:28:24.702+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:28:24.739+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:28:24.770+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:28:24.770+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:28:24.789+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:28:24.789+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:28:24.800+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.110 seconds
+[2023-12-24T02:28:55.242+0000] {processor.py:153} INFO - Started process (PID=15858) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:28:55.244+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:28:55.245+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:28:55.245+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:28:55.267+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:28:55.292+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:28:55.292+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:28:55.307+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:28:55.306+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:28:55.317+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.079 seconds
+[2023-12-24T02:29:25.701+0000] {processor.py:153} INFO - Started process (PID=15952) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:29:25.702+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:29:25.703+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:29:25.703+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:29:25.754+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:29:25.788+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:29:25.788+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:29:25.807+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:29:25.807+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:29:25.821+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.127 seconds
+[2023-12-24T02:29:56.108+0000] {processor.py:153} INFO - Started process (PID=16028) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:29:56.110+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:29:56.110+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:29:56.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:29:56.141+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:29:56.176+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:29:56.176+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:29:56.192+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:29:56.192+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:29:56.203+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.101 seconds
+[2023-12-24T02:30:26.655+0000] {processor.py:153} INFO - Started process (PID=16122) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:30:26.658+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:30:26.659+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:30:26.658+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:30:26.686+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:30:26.714+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:30:26.714+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:30:26.729+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:30:26.729+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:30:26.740+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.093 seconds
+[2023-12-24T02:30:57.002+0000] {processor.py:153} INFO - Started process (PID=16216) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:30:57.003+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:30:57.004+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:30:57.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:30:57.030+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:30:57.053+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:30:57.053+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:30:57.070+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:30:57.069+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:30:57.080+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.084 seconds
+[2023-12-24T02:31:27.180+0000] {processor.py:153} INFO - Started process (PID=16292) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:31:27.182+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:31:27.182+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:31:27.182+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:31:27.233+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:31:27.267+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:31:27.267+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:31:27.286+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:31:27.286+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:31:27.298+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.125 seconds
+[2023-12-24T02:31:57.639+0000] {processor.py:153} INFO - Started process (PID=16385) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:31:57.640+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:31:57.641+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:31:57.641+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:31:57.677+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:31:57.709+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:31:57.709+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:31:57.727+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:31:57.727+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:31:57.740+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.105 seconds
+[2023-12-24T02:32:27.940+0000] {processor.py:153} INFO - Started process (PID=16479) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:32:27.942+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:32:27.943+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:32:27.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:32:27.981+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:32:28.020+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:32:28.020+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:32:28.038+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:32:28.038+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:32:28.052+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.116 seconds
+[2023-12-24T02:32:58.324+0000] {processor.py:153} INFO - Started process (PID=16555) to work on /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:32:58.326+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_customers.py for tasks to queue
+[2023-12-24T02:32:58.328+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:32:58.327+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:32:58.403+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_customers']) retrieved from /opt/airflow/dags/gmv_customers.py
+[2023-12-24T02:32:58.491+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:32:58.491+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-12-24T02:32:58.511+0000] {logging_mixin.py:137} INFO - [2023-12-24T02:32:58.511+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_customers to 2023-12-23T00:00:00+00:00, run_after=2023-12-24T00:00:00+00:00
+[2023-12-24T02:32:58.524+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_customers.py took 0.205 seconds

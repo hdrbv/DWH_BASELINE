@@ -28,7 +28,7 @@ ui <- fluidPage(
   titlePanel("Аналитический дэшборд по клиентам"),
   # Цифры
   fluidRow(
-    column(4, verbatimTextOutput("unique_customers")),
+    column(4, verbatimTextOutput('df'), verbatimTextOutput("unique_customers")),
     column(4, verbatimTextOutput("avg_revenue")),
     column(4, verbatimTextOutput("avg_orders"))
   ),
@@ -40,19 +40,18 @@ ui <- fluidPage(
   # Pie Chart
   plotOutput("customer_groups")
 )
-
 server <- function(input, output) {
   output$unique_customers <- renderPrint({
     unique_customers <- nrow(df)
-    unique_customers
+    paste('Всего уникальных клиентов за последние 30 дней =', unique_customers)
   })
   output$avg_revenue <- renderPrint({
     avg_revenue <- mean(df$Revenue)
-    avg_revenue
+    paste('Cредний чек за последние 30 дней =', round(avg_revenue, 0))
   })
   output$avg_orders <- renderPrint({
     avg_orders <- mean(df$Orders)
-    avg_orders
+    paste('Среднее кол-во заказов на клиента за последние 30 дней =', round(avg_orders, 0))
   })
   output$customer_trend <- renderPlot({
     ggplot(df, aes(x = Date, y = Customers)) + geom_line() + labs(title = "Динамика кол-ва уникальных клиентов по дням", x = "Дата", y = "Клиенты")
@@ -64,9 +63,8 @@ server <- function(input, output) {
     df %>%
       group_by(CustomerGroup) %>%
       summarise(GMV = sum(Revenue)) %>%
-      ggplot(aes(x="", y=GMV, fill=CustomerGroup)) + geom_bar(width = 1, stat = "identity") + coord_polar("y")
+      ggplot(aes(x="", y = GMV, fill = CustomerGroup)) + geom_bar(width = 1, stat = "identity") + coord_polar("y") + labs(title = 'Доля разных групп клиентов в GMV за последние 30 дней')
   })
 }
-
 shinyApp(ui, server)
 
