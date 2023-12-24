@@ -200,9 +200,9 @@ services:
     image: rocker/shiny:4.0.3    
     ports:
       - "5335:5335"    
-    container_name: shiny-visualization
+    container_name: shiny
     volumes:
-      - ./VISUALIZATION_CLIENTS.R:/app/VISUALIZATION_CLIENTS.R
+      - ./visualization/VISUALIZATION_CLIENTS.R:/app/VISUALIZATION_CLIENTS.R
     working_dir: /app
     command: sh -c "Rscript ./visualization/VISUALIZATION_CLIENTS.R "
 

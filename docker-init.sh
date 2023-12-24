@@ -28,7 +28,7 @@ echo "Grafana & Prometheus - Up"
 cd .. && docker-compose up -d grafana prometheus postgres-exporter
 
 echo "Make visualusation with Shiny"
-cd .. && docker-compose up -d shiny-visualization
+cd .. && docker-compose up -d shiny
 
 sleep 30  # Waits for note start complete
 
