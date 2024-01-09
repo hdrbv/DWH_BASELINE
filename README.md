@@ -26,7 +26,7 @@ cd /path/to/your/dir/with/files/from/github
     [a](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e2.png) 
     <br>Проверка запроса на master _(terminal screenshot)_
 
-    ![](./evidences/e3.png) 
+    ![](./evidences/e3.png =400x) 
     <br>Проверка запроса на replica _(terminal screenshot)_    
 
     ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e4.png =500x) 
