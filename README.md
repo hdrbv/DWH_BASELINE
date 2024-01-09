@@ -18,12 +18,12 @@ cd /path/to/your/dir/with/files/from/github
 - Написан DDL для [структуры](https://github.com/hdrbv/DWH_HSE_23/blob/main/Full_Structure.pdf) в [SQL](https://github.com/hdrbv/DWH_HSE_23/blob/main/createdb.sql)
 - Настроена автоматическая инициализация
 
-    [](./evidences/e1.png) 
+    ![](./evidences/e1.png) 
     <br>Структура схемы _(terminal screenshot)_
 
 - Поднята реплика в docker-compose, настроена репликация
 
-    [](./evidences/e2.png) 
+    ![](./evidences/e2.png) 
     <br>Проверка запроса на master _(terminal screenshot)_
 
     ![](./evidences/e3.png) 
