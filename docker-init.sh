@@ -1,12 +1,17 @@
 echo "Clearing data"
 rm -rf ../postgresql-rp/data/*
 rm -rf ../postgresql-rp/data-slave/*
-
+rm -rf ../postgresql-rp/data_pgre_ddwh/*
 docker-compose down
-docker-compose up -d  postgres_master
+rm -rf yes ./data
+rm -rf yes ./data-slave
+rm -rf yes ./data_ddwh
+rm -rf yes ./data_pgre_ddwh
 
 echo "Let's start: postgres_master node..."
-sleep 120  
+docker-compose up -d postgres_master
+
+sleep 30  
 
 echo "Let's prepare replica config..."
 docker exec -it postgres_master sh /etc/postgresql/init-script/init.sh 
@@ -14,10 +19,25 @@ docker exec -it postgres_master sh /etc/postgresql/init-script/init.sh
 echo "Let's restart master node"
 docker-compose restart postgres_master
 
-sleep 30
+sleep 15
 
 echo "Let's starting slave node..."
-docker-compose up -d  postgres_slave zookeeper broker debezium debezium-ui rest-proxy schema-registry 
+docker-compose up -d postgres_slave 
+
+sleep 10
+
+echo "Let's starting slave node..."
+docker-compose up -d postgres_dwh 
+
+sleep 10
+
+echo "Launch clickhouse for detailed DWH"
+docker-compose up -d clickh_master 
+
+sleep 10
+
+echo "Let's starting other services"
+docker-compose up -d zookeeper broker debezium debezium-ui rest-proxy schema-registry 
 
 curl --location --request POST 'http://localhost:8083/connectors'  --header 'Accept: application/json'  --header 'Content-Type: application/json'  -d @connector.json --verbose
 
@@ -30,7 +50,7 @@ cd .. && docker-compose up -d grafana prometheus postgres-exporter
 echo "Make visualusation with Shiny"
 cd .. && docker-compose up -d shiny
 
-sleep 30  # Waits for note start complete
+sleep 15  # Waits for note start complete
 
 echo "Mission complete"
 
