@@ -41,7 +41,7 @@ cd /path/to/your/dir/with/files/from/github
 - Добавлены новые поля в изначальную структуру
 - Данные детального слоя сложены в схему **dwh_detailed** на отдельном инстансе Postgre
 
-    ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e6.png =270x) 
+    ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e6.png width=270x) 
     <br>Структура схемы **dwh_detailed** на Postgres _(DBeaver screenshot)_    
 
 - Создана ER-диаграмма проинициализированный [структуры](./Full_Structure_Det_DWH.pdf)
@@ -60,7 +60,8 @@ cd /path/to/your/dir/with/files/from/github
 
 - Поднят и подключен debezium к master-хосту сервиса
 
-    ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e8.png =650x) 
+    ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e8.png =650x)
+    <img src="./evidences/e8.png" width="650" />
     <br> Подключенный debezium  _(Safari screenshot)_    
 
     ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e9.png =250x) 
