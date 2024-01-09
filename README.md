@@ -18,30 +18,30 @@ cd /path/to/your/dir/with/files/from/github
 - Написан DDL для [структуры](https://github.com/hdrbv/DWH_HSE_23/blob/main/Full_Structure.pdf) в [SQL](https://github.com/hdrbv/DWH_HSE_23/blob/main/createdb.sql)
 - Настроена автоматическая инициализация
 
-    ![](./evidences/e1.png =400x) 
+    ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e1.png =400x) 
     <br>Структура схемы _(terminal screenshot)_
 
 - Поднята реплика в docker-compose, настроена репликация
 
-    ![](./evidences/e2.png =1000x) 
+    ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e2.png =1000x) 
     <br>Проверка запроса на master _(terminal screenshot)_
 
-    ![](./evidences/e3.png =1000x) 
+    ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e3.png =1000x) 
     <br>Проверка запроса на replica _(terminal screenshot)_    
 
-    ![](./evidences/e4.png =500x) 
+    ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e4.png =500x) 
     <br>Insert на master передает данные на replica _(terminal screenshot)_    
 
 - Реализован скрипт, который считает GMV (Gross Merchandise Value) и отдает таблицу в заданном формате (_store_id | category_id | sales_sum_) с превращением скрипта выше во [view](https://github.com/hdrbv/DWH_HSE_23/blob/main/createview.sql)
 
-    ![](./evidences/e5.png =250x) 
+    ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e5.png =250x) 
     <br>Insert на master передает данные на replica _(DBeaver screenshot)_    
 
 ### Часть №2
 - Добавлены новые поля в изначальную структуру
 - Данные детального слоя сложены в схему **dwh_detailed** на отдельном инстансе Postgre
 
-    ![](./evidences/e6.png =270x) 
+    ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e6.png =270x) 
     <br>Структура схемы **dwh_detailed** на Postgres _(DBeaver screenshot)_    
 
 - Создана ER-диаграмма проинициализированный [структуры](./Full_Structure_Det_DWH.pdf)
@@ -54,16 +54,16 @@ cd /path/to/your/dir/with/files/from/github
     
     Данные пункты (за исключением крайнего) ведут естественным образом к б*o*льшей скорости и высокой устойчивости) 
 
-    ![](./evidences/e7.png =250x) 
+    ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e7.png =250x) 
     <br>Структура схемы **dwh_detailed** на Clickhouse _(DBeaver screenshot)_    
 
 
 - Поднят и подключен debezium к master-хосту сервиса
 
-    ![](./evidences/e8.png =650x) 
+    ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e8.png =650x) 
     <br> Подключенный debezium  _(Safari screenshot)_    
 
-    ![](./evidences/e9.png =250x) 
+    ![](https://github.com/hdrbv/DWH_HSE_23/tree/main/evidences/e9.png =250x) 
     <br> Состояние развернутого debezium и debezium-ui  _(Docker screenshot)_            
 
 - Реализован на Python [DMP-сервис](https://github.com/hdrbv/DWH_HSE_23/blob/main/DMP_service.py), который посажен в Docker-Compose 
