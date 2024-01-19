@@ -1,7 +1,6 @@
 import json
 import psycopg2
 from kafka import KafkaConsumer
-
 kafka_name = 'postgres.public.products'
 kafka_gr = "backend"
 servers = "broker:29092"

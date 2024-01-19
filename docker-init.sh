@@ -41,14 +41,20 @@ docker-compose up -d zookeeper broker debezium debezium-ui rest-proxy schema-reg
 
 curl --location --request POST 'http://localhost:8083/connectors'  --header 'Accept: application/json'  --header 'Content-Type: application/json'  -d @connector.json --verbose
 
+sleep 10
+
 echo "Airflowing :)"
 cd airflow && docker-compose up -d
+
+sleep 10
 
 echo "Grafana & Prometheus - Up"
 cd .. && docker-compose up -d grafana prometheus postgres-exporter
 
+sleep 10
+
 echo "Make visualusation with Shiny"
-cd .. && docker-compose up -d shiny
+cd .. && docker-compose up -d app-in-compose shinyproxy
 
 sleep 15  # Waits for note start complete
 
