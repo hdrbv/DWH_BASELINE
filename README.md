@@ -97,7 +97,7 @@ _Структура схемы **dwh_detailed** на Clickhouse (DBeaver screens
     
     _Аналитический дэшборд по клиентам (Safari screenshot. NB: don't forget to update page http://localhost:3838)_            
 
-    [Демо](./evidences/video.mov) дэшбордов:
+    [Демо (видео)](./evidences/video.mov) дэшбордов
 
 <video width="320" height="240" controls>
   <source src="./evidences/video.mov" type="video/mp4">
