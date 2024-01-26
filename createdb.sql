@@ -35,6 +35,8 @@ CREATE TABLE public.products(
     manufacturer_id BIGINT REFERENCES public.manufacturers(manufacturer_id)
 );
 
+ALTER TABLE public.products REPLICA IDENTITY FULL;
+
 CREATE TABLE public.price_change(
     product_id BIGINT,
     FOREIGN KEY(product_id) REFERENCES public.products(product_id),

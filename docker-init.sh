@@ -1,12 +1,12 @@
-echo "Clearing data"
-rm -rf ../postgresql-rp/data/*
-rm -rf ../postgresql-rp/data-slave/*
-rm -rf ../postgresql-rp/data_pgre_ddwh/*
+echo "Stop"
+# rm -rf ../postgresql-rp/data/*
+# rm -rf ../postgresql-rp/data-slave/*
+# rm -rf ../postgresql-rp/data_pgre_ddwh/*
 docker-compose down
-rm -rf yes ./data
-rm -rf yes ./data-slave
-rm -rf yes ./data_ddwh
-rm -rf yes ./data_pgre_ddwh
+# rm -rf yes ./data
+# rm -rf yes ./data-slave
+# rm -rf yes ./data_ddwh
+# rm -rf yes ./data_pgre_ddwh
 
 echo "Let's start: postgres_master node..."
 docker-compose up -d postgres_master
@@ -37,11 +37,12 @@ docker-compose up -d clickh_master
 sleep 10
 
 echo "Let's starting other services"
-docker-compose up -d zookeeper broker debezium debezium-ui rest-proxy schema-registry 
+docker-compose up -d zookeeper kafka debezium schema-registry 
+echo "Finish starting"
+sleep 30
+curl -i -X POST -H "Accept:application/json" -H "Content-Type:application/json" 127.0.0.1:8083/connectors/ --data "@connector2.json"
+docker-compose up -d dmp-service
 
-curl --location --request POST 'http://localhost:8083/connectors'  --header 'Accept: application/json'  --header 'Content-Type: application/json'  -d @connector.json --verbose
-
-sleep 10
 
 echo "Airflowing :)"
 cd airflow && docker-compose up -d
@@ -54,9 +55,7 @@ cd .. && docker-compose up -d grafana prometheus postgres-exporter
 sleep 10
 
 echo "Make visualusation with Shiny"
-cd .. && docker-compose up -d app-in-compose shinyproxy
-
-sleep 15  # Waits for note start complete
+docker-compose up -d app-in-compose shinyproxy
 
 echo "Mission complete"
 

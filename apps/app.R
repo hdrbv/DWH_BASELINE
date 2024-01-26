@@ -1,4 +1,6 @@
-library("pacman") 
+if("pacman" %in% rownames(installed.packages()) == FALSE){
+  install.packages("pacman")
+}
 
 pacman::p_load(shiny, ggplot2, dplyr, shinythemes)
 

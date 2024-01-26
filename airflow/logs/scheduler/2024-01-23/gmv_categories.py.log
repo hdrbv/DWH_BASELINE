@@ -1,0 +1,504 @@
+[2024-01-23T21:50:37.120+0000] {processor.py:153} INFO - Started process (PID=61) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:50:37.122+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T21:50:37.125+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:50:37.124+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:50:37.500+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:50:37.794+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:50:37.794+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T21:50:37.870+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:50:37.870+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T21:50:37.953+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.860 seconds
+[2024-01-23T21:51:08.123+0000] {processor.py:153} INFO - Started process (PID=141) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:51:08.124+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T21:51:08.125+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:51:08.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:51:08.205+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:51:08.244+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:51:08.244+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T21:51:08.284+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:51:08.283+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T21:51:08.315+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.195 seconds
+[2024-01-23T21:51:39.086+0000] {processor.py:153} INFO - Started process (PID=221) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:51:39.087+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T21:51:39.088+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:51:39.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:51:39.132+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:51:39.168+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:51:39.167+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T21:51:39.197+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:51:39.197+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T21:51:39.219+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.136 seconds
+[2024-01-23T21:52:09.492+0000] {processor.py:153} INFO - Started process (PID=321) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:52:09.493+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T21:52:09.494+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:52:09.494+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:52:09.541+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:52:09.585+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:52:09.585+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T21:52:09.633+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:52:09.633+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T21:52:09.664+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.175 seconds
+[2024-01-23T21:52:40.065+0000] {processor.py:153} INFO - Started process (PID=401) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:52:40.066+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T21:52:40.067+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:52:40.066+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:52:40.116+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:52:40.157+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:52:40.157+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T21:52:40.191+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:52:40.190+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T21:52:40.216+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.155 seconds
+[2024-01-23T21:53:10.859+0000] {processor.py:153} INFO - Started process (PID=501) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:53:10.860+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T21:53:10.861+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:53:10.861+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:53:10.912+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:53:10.954+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:53:10.954+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T21:53:10.986+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:53:10.986+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T21:53:11.011+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.154 seconds
+[2024-01-23T21:53:41.451+0000] {processor.py:153} INFO - Started process (PID=581) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:53:41.452+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T21:53:41.453+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:53:41.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:53:41.499+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:53:41.538+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:53:41.538+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T21:53:41.568+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:53:41.568+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T21:53:41.592+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.144 seconds
+[2024-01-23T21:59:13.559+0000] {processor.py:153} INFO - Started process (PID=61) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:59:13.560+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T21:59:13.561+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:59:13.561+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:59:13.727+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:59:13.859+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:59:13.858+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T21:59:13.911+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:59:13.911+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T21:59:13.956+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.401 seconds
+[2024-01-23T21:59:44.677+0000] {processor.py:153} INFO - Started process (PID=141) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:59:44.678+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T21:59:44.679+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:59:44.678+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:59:44.756+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T21:59:44.839+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:59:44.838+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T21:59:44.877+0000] {logging_mixin.py:137} INFO - [2024-01-23T21:59:44.877+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T21:59:44.899+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.227 seconds
+[2024-01-23T22:00:15.049+0000] {processor.py:153} INFO - Started process (PID=221) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:00:15.050+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:00:15.051+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:00:15.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:00:15.102+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:00:15.144+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:00:15.144+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:00:15.175+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:00:15.174+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:00:15.199+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.155 seconds
+[2024-01-23T22:00:45.238+0000] {processor.py:153} INFO - Started process (PID=321) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:00:45.239+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:00:45.240+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:00:45.240+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:00:45.291+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:00:45.339+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:00:45.339+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:00:45.387+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:00:45.387+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:00:45.414+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.179 seconds
+[2024-01-23T22:01:16.025+0000] {processor.py:153} INFO - Started process (PID=401) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:01:16.026+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:01:16.027+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:01:16.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:01:16.073+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:01:16.117+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:01:16.117+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:01:16.148+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:01:16.148+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:01:16.169+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.146 seconds
+[2024-01-23T22:01:46.371+0000] {processor.py:153} INFO - Started process (PID=481) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:01:46.372+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:01:46.379+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:01:46.376+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:01:46.449+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:01:46.499+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:01:46.499+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:01:46.532+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:01:46.532+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:01:46.556+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.189 seconds
+[2024-01-23T22:02:16.606+0000] {processor.py:153} INFO - Started process (PID=582) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:02:16.607+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:02:16.608+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:02:16.608+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:02:16.651+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:02:16.689+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:02:16.688+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:02:16.720+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:02:16.719+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:02:16.744+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.141 seconds
+[2024-01-23T22:02:47.155+0000] {processor.py:153} INFO - Started process (PID=661) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:02:47.155+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:02:47.156+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:02:47.156+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:02:47.197+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:02:47.232+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:02:47.231+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:02:47.269+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:02:47.268+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:02:47.293+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.141 seconds
+[2024-01-23T22:03:17.403+0000] {processor.py:153} INFO - Started process (PID=750) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:03:17.403+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:03:17.404+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:03:17.404+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:03:17.453+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:03:17.496+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:03:17.496+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:03:17.535+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:03:17.535+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:03:17.560+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.159 seconds
+[2024-01-23T22:03:47.811+0000] {processor.py:153} INFO - Started process (PID=841) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:03:47.812+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:03:47.813+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:03:47.813+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:03:47.862+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:03:47.898+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:03:47.898+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:03:47.931+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:03:47.931+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:03:47.953+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.144 seconds
+[2024-01-23T22:04:18.134+0000] {processor.py:153} INFO - Started process (PID=921) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:04:18.134+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:04:18.135+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:04:18.135+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:04:18.174+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:04:18.213+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:04:18.213+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:04:18.245+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:04:18.245+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:04:18.267+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.136 seconds
+[2024-01-23T22:04:48.887+0000] {processor.py:153} INFO - Started process (PID=1010) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:04:48.888+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:04:48.889+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:04:48.889+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:04:48.944+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:04:48.988+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:04:48.988+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:04:49.029+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:04:49.029+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:04:49.082+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.198 seconds
+[2024-01-23T22:05:19.152+0000] {processor.py:153} INFO - Started process (PID=1101) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:05:19.153+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:05:19.155+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:05:19.154+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:05:19.202+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:05:19.240+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:05:19.239+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:05:19.271+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:05:19.270+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:05:19.292+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.144 seconds
+[2024-01-23T22:05:49.662+0000] {processor.py:153} INFO - Started process (PID=1181) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:05:49.663+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:05:49.664+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:05:49.664+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:05:49.706+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:05:49.744+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:05:49.744+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:05:49.776+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:05:49.776+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:05:49.796+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.137 seconds
+[2024-01-23T22:06:20.075+0000] {processor.py:153} INFO - Started process (PID=1270) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:06:20.076+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:06:20.077+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:06:20.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:06:20.129+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:06:20.178+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:06:20.177+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:06:20.215+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:06:20.215+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:06:20.239+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.167 seconds
+[2024-01-23T22:06:51.092+0000] {processor.py:153} INFO - Started process (PID=1361) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:06:51.093+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:06:51.093+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:06:51.093+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:06:51.133+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:06:51.170+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:06:51.170+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:06:51.202+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:06:51.202+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:06:51.228+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.138 seconds
+[2024-01-23T22:07:21.329+0000] {processor.py:153} INFO - Started process (PID=1441) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:07:21.330+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:07:21.331+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:07:21.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:07:21.373+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:07:21.409+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:07:21.409+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:07:21.440+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:07:21.440+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:07:21.470+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.143 seconds
+[2024-01-23T22:07:52.006+0000] {processor.py:153} INFO - Started process (PID=1541) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:07:52.006+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:07:52.007+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:07:52.007+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:07:52.059+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:07:52.103+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:07:52.103+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:07:52.140+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:07:52.140+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:07:52.168+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.165 seconds
+[2024-01-23T22:08:22.297+0000] {processor.py:153} INFO - Started process (PID=1621) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:08:22.297+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:08:22.298+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:08:22.298+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:08:22.342+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:08:22.384+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:08:22.384+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:08:22.418+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:08:22.418+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:08:22.456+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.162 seconds
+[2024-01-23T22:08:52.495+0000] {processor.py:153} INFO - Started process (PID=1701) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:08:52.495+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:08:52.496+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:08:52.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:08:52.536+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:08:52.575+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:08:52.575+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:08:52.609+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:08:52.609+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:08:52.633+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.141 seconds
+[2024-01-23T22:09:23.483+0000] {processor.py:153} INFO - Started process (PID=1801) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:09:23.484+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:09:23.485+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:09:23.485+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:09:23.533+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:09:23.568+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:09:23.568+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:09:23.601+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:09:23.600+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:09:23.623+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.144 seconds
+[2024-01-23T22:09:54.090+0000] {processor.py:153} INFO - Started process (PID=1881) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:09:54.090+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:09:54.091+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:09:54.091+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:09:54.136+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:09:54.177+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:09:54.177+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:09:54.211+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:09:54.211+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:09:54.233+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.147 seconds
+[2024-01-23T22:10:24.448+0000] {processor.py:153} INFO - Started process (PID=1961) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:10:24.449+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:10:24.450+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:10:24.450+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:10:24.498+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:10:24.541+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:10:24.540+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:10:24.570+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:10:24.570+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:10:24.590+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.145 seconds
+[2024-01-23T22:10:54.976+0000] {processor.py:153} INFO - Started process (PID=2061) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:10:54.977+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:10:54.978+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:10:54.978+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:10:55.033+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:10:55.073+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:10:55.073+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:10:55.117+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:10:55.117+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:10:55.141+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.170 seconds
+[2024-01-23T22:11:25.327+0000] {processor.py:153} INFO - Started process (PID=2141) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:11:25.328+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:11:25.329+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:11:25.329+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:11:25.377+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:11:25.411+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:11:25.411+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:11:25.439+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:11:25.439+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:11:25.458+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.134 seconds
+[2024-01-23T22:11:55.609+0000] {processor.py:153} INFO - Started process (PID=2221) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:11:55.609+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:11:55.611+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:11:55.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:11:55.666+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:11:55.709+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:11:55.709+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:11:55.745+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:11:55.745+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:11:55.775+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.169 seconds
+[2024-01-23T22:12:26.033+0000] {processor.py:153} INFO - Started process (PID=2321) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:12:26.034+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:12:26.035+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:12:26.035+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:12:26.082+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:12:26.117+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:12:26.117+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:12:26.151+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:12:26.151+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:12:26.172+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.142 seconds
+[2024-01-23T22:12:56.599+0000] {processor.py:153} INFO - Started process (PID=2401) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:12:56.600+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:12:56.601+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:12:56.601+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:12:56.640+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:12:56.680+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:12:56.679+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:12:56.714+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:12:56.714+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:12:56.738+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.141 seconds
+[2024-01-23T22:13:27.016+0000] {processor.py:153} INFO - Started process (PID=2490) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:13:27.016+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:13:27.017+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:13:27.017+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:13:27.071+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:13:27.115+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:13:27.114+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:13:27.153+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:13:27.152+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:13:27.179+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.166 seconds
+[2024-01-23T22:13:57.481+0000] {processor.py:153} INFO - Started process (PID=2580) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:13:57.481+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:13:57.482+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:13:57.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:13:57.517+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:13:57.553+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:13:57.552+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:13:57.584+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:13:57.584+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:13:57.606+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.127 seconds
+[2024-01-23T22:14:28.050+0000] {processor.py:153} INFO - Started process (PID=2660) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:14:28.051+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:14:28.051+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:14:28.051+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:14:28.106+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:14:28.154+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:14:28.154+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:14:28.183+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:14:28.183+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:14:28.209+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.163 seconds
+[2024-01-23T22:14:58.835+0000] {processor.py:153} INFO - Started process (PID=2762) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:14:58.836+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:14:58.836+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:14:58.836+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:14:58.884+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:14:58.929+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:14:58.928+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:14:58.974+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:14:58.974+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:14:59.002+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.171 seconds
+[2024-01-23T22:15:29.116+0000] {processor.py:153} INFO - Started process (PID=2843) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:15:29.117+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:15:29.118+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:15:29.118+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:15:29.165+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:15:29.204+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:15:29.203+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:15:29.243+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:15:29.243+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:15:29.268+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.155 seconds
+[2024-01-23T22:15:59.453+0000] {processor.py:153} INFO - Started process (PID=2923) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:15:59.454+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:15:59.455+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:15:59.454+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:15:59.500+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:15:59.539+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:15:59.539+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:15:59.571+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:15:59.571+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:15:59.593+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.143 seconds
+[2024-01-23T22:16:29.731+0000] {processor.py:153} INFO - Started process (PID=3022) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:16:29.732+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:16:29.733+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:16:29.733+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:16:29.776+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:16:29.809+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:16:29.809+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:16:29.839+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:16:29.839+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:16:29.865+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.136 seconds
+[2024-01-23T22:16:59.899+0000] {processor.py:153} INFO - Started process (PID=3102) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:16:59.900+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:16:59.900+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:16:59.900+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:16:59.945+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:16:59.984+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:16:59.984+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:17:00.025+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:17:00.025+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:17:00.049+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.153 seconds
+[2024-01-23T22:17:30.284+0000] {processor.py:153} INFO - Started process (PID=3181) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:17:30.285+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:17:30.285+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:17:30.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:17:30.332+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:17:30.376+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:17:30.375+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:17:30.405+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:17:30.405+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:17:30.426+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.145 seconds
+[2024-01-23T22:18:00.565+0000] {processor.py:153} INFO - Started process (PID=3281) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:18:00.566+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:18:00.567+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:18:00.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:18:00.612+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:18:00.654+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:18:00.653+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:18:00.684+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:18:00.684+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:18:00.710+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.147 seconds
+[2024-01-23T22:18:30.858+0000] {processor.py:153} INFO - Started process (PID=3361) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:18:30.859+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:18:30.859+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:18:30.859+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:18:30.904+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:18:30.945+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:18:30.944+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:18:30.975+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:18:30.975+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:18:30.999+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.144 seconds
+[2024-01-23T22:19:01.183+0000] {processor.py:153} INFO - Started process (PID=3441) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:19:01.184+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:19:01.185+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:19:01.185+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:19:01.229+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:19:01.272+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:19:01.272+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:19:01.307+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:19:01.306+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:19:01.330+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.150 seconds
+[2024-01-23T22:19:31.641+0000] {processor.py:153} INFO - Started process (PID=3541) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:19:31.642+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:19:31.643+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:19:31.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:19:31.704+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:19:31.746+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:19:31.746+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:19:31.778+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:19:31.777+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:19:31.800+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.163 seconds
+[2024-01-23T22:20:01.857+0000] {processor.py:153} INFO - Started process (PID=3621) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:20:01.858+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:20:01.859+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:20:01.859+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:20:01.907+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:20:01.956+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:20:01.955+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:20:01.995+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:20:01.994+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:20:02.019+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.165 seconds
+[2024-01-23T22:20:32.327+0000] {processor.py:153} INFO - Started process (PID=3701) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:20:32.328+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:20:32.329+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:20:32.329+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:20:32.393+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:20:32.453+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:20:32.453+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:20:32.493+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:20:32.492+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:20:32.534+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.210 seconds
+[2024-01-23T22:21:02.712+0000] {processor.py:153} INFO - Started process (PID=3802) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:21:02.712+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:21:02.713+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:21:02.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:21:02.759+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:21:02.796+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:21:02.796+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:21:02.830+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:21:02.830+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:21:02.856+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.147 seconds
+[2024-01-23T22:21:33.194+0000] {processor.py:153} INFO - Started process (PID=3882) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:21:33.194+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:21:33.195+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:21:33.195+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:21:33.238+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:21:33.287+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:21:33.286+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:21:33.321+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:21:33.321+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:21:33.346+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.154 seconds
+[2024-01-23T22:22:03.841+0000] {processor.py:153} INFO - Started process (PID=3982) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:22:03.842+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:22:03.843+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:22:03.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:22:03.902+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:22:03.946+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:22:03.946+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:22:03.976+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:22:03.976+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:22:04.005+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.167 seconds
+[2024-01-23T22:22:34.047+0000] {processor.py:153} INFO - Started process (PID=4062) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:22:34.048+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:22:34.049+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:22:34.049+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:22:34.102+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:22:34.138+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:22:34.137+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:22:34.175+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:22:34.175+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:22:34.206+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.161 seconds
+[2024-01-23T22:23:04.287+0000] {processor.py:153} INFO - Started process (PID=4142) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:23:04.288+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:23:04.289+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:23:04.289+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:23:04.332+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:23:04.367+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:23:04.366+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:23:04.399+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:23:04.399+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:23:04.422+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.137 seconds
+[2024-01-23T22:23:34.452+0000] {processor.py:153} INFO - Started process (PID=4243) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:23:34.453+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:23:34.454+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:23:34.454+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:23:34.500+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:23:34.545+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:23:34.544+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:23:34.575+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:23:34.575+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:23:34.599+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.150 seconds
+[2024-01-23T22:24:04.721+0000] {processor.py:153} INFO - Started process (PID=4323) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:24:04.722+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:24:04.723+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:24:04.723+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:24:04.765+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:24:04.809+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:24:04.808+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:24:04.845+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:24:04.845+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:24:04.874+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.156 seconds
+[2024-01-23T22:24:35.262+0000] {processor.py:153} INFO - Started process (PID=4403) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:24:35.263+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:24:35.264+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:24:35.264+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:24:35.307+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:24:35.340+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:24:35.340+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:24:35.370+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:24:35.370+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:24:35.392+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.133 seconds
+[2024-01-23T22:25:06.176+0000] {processor.py:153} INFO - Started process (PID=4503) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:25:06.177+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:25:06.178+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:25:06.178+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:25:06.222+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:25:06.258+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:25:06.258+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:25:06.290+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:25:06.290+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:25:06.321+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.148 seconds
+[2024-01-23T22:25:37.193+0000] {processor.py:153} INFO - Started process (PID=4583) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:25:37.194+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:25:37.195+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:25:37.195+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:25:37.239+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:25:37.276+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:25:37.275+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:25:37.309+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:25:37.309+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:25:37.330+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.140 seconds
+[2024-01-23T22:26:07.564+0000] {processor.py:153} INFO - Started process (PID=4671) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:26:07.565+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:26:07.566+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:26:07.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:26:07.618+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:26:07.656+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:26:07.656+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:26:07.684+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:26:07.684+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:26:07.704+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.142 seconds
+[2024-01-23T22:26:37.917+0000] {processor.py:153} INFO - Started process (PID=4762) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:26:37.917+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:26:37.918+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:26:37.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:26:37.960+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:26:37.992+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:26:37.992+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:26:38.022+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:26:38.022+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:26:38.042+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.128 seconds
+[2024-01-23T22:27:08.226+0000] {processor.py:153} INFO - Started process (PID=4842) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:27:08.227+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:27:08.228+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:27:08.228+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:27:08.275+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:27:08.303+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:27:08.303+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:27:08.335+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:27:08.335+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:27:08.354+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.131 seconds
+[2024-01-23T22:27:38.390+0000] {processor.py:153} INFO - Started process (PID=4942) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:27:38.391+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:27:38.392+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:27:38.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:27:38.432+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:27:38.469+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:27:38.469+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:27:38.502+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:27:38.502+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:27:38.540+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.152 seconds
+[2024-01-23T22:28:08.855+0000] {processor.py:153} INFO - Started process (PID=5022) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:28:08.856+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:28:08.856+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:28:08.856+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:28:08.904+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:28:08.947+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:28:08.947+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:28:08.978+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:28:08.978+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:28:09.006+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.154 seconds
+[2024-01-23T22:28:39.210+0000] {processor.py:153} INFO - Started process (PID=5102) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:28:39.211+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:28:39.211+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:28:39.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:28:39.257+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:28:39.295+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:28:39.295+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:28:39.331+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:28:39.331+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:28:39.355+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.148 seconds
+[2024-01-23T22:29:09.633+0000] {processor.py:153} INFO - Started process (PID=5202) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:29:09.633+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:29:09.634+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:29:09.634+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:29:09.688+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:29:09.748+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:29:09.748+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:29:09.782+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:29:09.781+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:29:09.813+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.183 seconds
+[2024-01-23T22:29:40.043+0000] {processor.py:153} INFO - Started process (PID=5282) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:29:40.044+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:29:40.045+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:29:40.044+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:29:40.090+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:29:40.126+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:29:40.126+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:29:40.161+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:29:40.161+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:29:40.182+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.141 seconds
+[2024-01-23T22:30:10.824+0000] {processor.py:153} INFO - Started process (PID=5380) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:30:10.824+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:30:10.825+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:30:10.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:30:10.880+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:30:10.938+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:30:10.937+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:30:10.976+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:30:10.976+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:30:11.003+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.182 seconds
+[2024-01-23T22:30:41.120+0000] {processor.py:153} INFO - Started process (PID=5460) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:30:41.121+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:30:41.122+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:30:41.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:30:41.195+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:30:41.234+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:30:41.234+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:30:41.265+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:30:41.265+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:30:41.289+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.172 seconds
+[2024-01-23T22:31:11.337+0000] {processor.py:153} INFO - Started process (PID=5540) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:31:11.338+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:31:11.339+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:31:11.338+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:31:11.405+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:31:11.446+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:31:11.446+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:31:11.476+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:31:11.476+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:31:11.500+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.165 seconds
+[2024-01-23T22:31:41.590+0000] {processor.py:153} INFO - Started process (PID=5641) to work on /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:31:41.591+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/gmv_categories.py for tasks to queue
+[2024-01-23T22:31:41.592+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:31:41.592+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:31:41.638+0000] {processor.py:753} INFO - DAG(s) dict_keys(['gmv_categories']) retrieved from /opt/airflow/dags/gmv_categories.py
+[2024-01-23T22:31:41.684+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:31:41.683+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2024-01-23T22:31:41.713+0000] {logging_mixin.py:137} INFO - [2024-01-23T22:31:41.712+0000] {dag.py:3427} INFO - Setting next_dagrun for gmv_categories to 2024-01-22T00:00:00+00:00, run_after=2024-01-23T00:00:00+00:00
+[2024-01-23T22:31:41.743+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/gmv_categories.py took 0.156 seconds

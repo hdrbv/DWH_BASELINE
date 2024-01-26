@@ -74,6 +74,9 @@ _Структура схемы **dwh_detailed** на Clickhouse (DBeaver screens
     _Состояние развернутого debezium и debezium-ui (Docker screenshot)_            
 
 - Реализован на Python [DMP-сервис](https://github.com/hdrbv/DWH_HSE_23/blob/main/DMP_service.py), который посажен в Docker-Compose 
+    
+    - DMP захватывает изменения с помощью debezium на **postgres\_master**, через kafka передает и записывает на DWH тоже на postgre. 
+    - [Маппинг](./mapping.yml) расширяемый, конфигурируется через yaml файл согласно изначальным требованиям.
 
 
 ### Часть №3 
@@ -108,9 +111,9 @@ _Структура схемы **dwh_detailed** на Clickhouse (DBeaver screens
 Все сервисы запустились, состояние - healthy. 
 
 <img src="./evidences/e13.png" width="350"/>        
+<br/>
 <img src="./evidences/e14.png" width="350"/>        
 
 ***
-
 
 

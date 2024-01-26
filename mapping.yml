@@ -1,0 +1,5 @@
+products:
+  hub_load_dts: 'dt.now() '
+  hub_product_id: data['product_id']
+  hub_rec_src: str('hub_rec_src')
+  product_name: data['product_name']
