@@ -13,7 +13,7 @@ cd /path/to/your/dir/with/files/from/github
 
 ## Содержание
 
-### Часть №1
+### I
 - Поднят инстанс PostgreSQL в Docker
 - Написан DDL для [структуры](https://github.com/hdrbv/DWH_HSE_23/blob/main/Full_Structure.pdf) в [SQL](https://github.com/hdrbv/DWH_HSE_23/blob/main/createdb.sql)
 - Настроена автоматическая инициализация
@@ -42,7 +42,7 @@ _Insert на master передает данные на replica (terminal screens
     <img src="./evidences/e5.png" width="250"/>    
 _Созданная view GMV (DBeaver screenshot)_    
 
-### Часть №2
+### II
 - Добавлены новые поля в изначальную структуру
 - Данные детального слоя сложены в схему **dwh_detailed** на отдельном инстансе Postgre
 
@@ -79,11 +79,11 @@ _Структура схемы **dwh_detailed** на Clickhouse (DBeaver screens
     - [Маппинг](./mapping.yml) расширяемый, конфигурируется через yaml файл согласно изначальным требованиям.
 
 
-### Часть №3 
+### III 
 - Поднят [Apache Airflow](./airflow) в docker-compose 
 - Созданы [DAG](./airflow/dags) для Airflow
 
-### Часть №4 
+### IV
 - Поднята Grafana
 
     <img src="./evidences/e10.png" width="1050"/>        
@@ -106,9 +106,9 @@ _Структура схемы **dwh_detailed** на Clickhouse (DBeaver screens
   <source src="./evidences/video.mov" type="video/mp4">
 </video>
 
-## Итого
+## Итоговая проверка
 
-Все сервисы запустились, состояние - healthy. 
+Все сервисы запущены, состояние - healthy. 
 
 <img src="./evidences/e13.png" width="350"/>        
 <br/>
